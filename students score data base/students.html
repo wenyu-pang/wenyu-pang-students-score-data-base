@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add Student</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Student List Information</h1>
+  <table border="10">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>ID</th>
+        <th>Score</th>
+        <th>Edith</th>
+        <th>Delet</th>
+      </tr>
+    </thead>
+    <tbody id="studentTable"></tbody>
+  </table>
+
+  <br>
+  <a href="index.html">Back to Add Student</a>
+
+  <script src="script.js"></script>
+  <script>
+    // 页面加载时显示学生数据
+    window.onload = displayStudents;
+  </script>
+</body>
+</html>

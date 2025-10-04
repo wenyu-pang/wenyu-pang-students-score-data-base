@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;/*设置字体*/
+  background: #e0abab; /*背景颜色*/
+  margin: 0;
+  padding: 0;/*删除默认的浏览器间距，式布局保持一致*/
+  height: 100vh; /* full height */
+  display: flex;
+  flex-direction: column; /* keep title on top of form */
+  justify-content: center; /* vertical center */
+  align-items: center;     /* horizontal center */
+  text-align: center；/*将文本元素在中心对齐*/
+
+}
+
+.page-title {
+  margin: 20px 0;/*在标题中间添加间隔空间*/
+  font-size: 28px;/*字体大小*/
+  color: #333;/*颜色*/
+}
+
+.form-container {
+  display: inline-block;/*使容器收缩以适合其它内容物*/
+  background: white;
+  padding: 20px 30px;/*间隔*/
+  margin-top: 10px;/*间隔在上方*/
+  border-radius: 10px;/*将边角变成圆*/
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);/*变成好像卡牌的效果*/
+}
+
+input {
+  display: block;
+  width: 250px;
+  padding: 10px;
+  margin: 10px auto;/*间隔*/
+  border: 1px solid #ccc;/*输入的地方变颜色*/
+  border-radius: 6px;/*使边角变成圆*/
+}
+
+button {
+  background: #4CAF50;
+  color: white;
+  border: none;/*删除默认的边框*/
+  padding: 10px 20px;/*把button 变大*/
+  margin-top: 10px;
+  border-radius: 6px;/*使边角变成圆*/
+  cursor: pointer;/*鼠标接触到button 从光标变成手*/
+}
+
+button:hover {
+  background: #45a049;
+}
+
+a {
+  display: inline-block;
+  margin-top: 15px;
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;/*互动的时候像才会回来*/
+}
